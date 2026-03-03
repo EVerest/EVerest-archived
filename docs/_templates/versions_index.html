@@ -1,9 +1,0 @@
-{% extends "!page.html" %}
-{% block title %}Versions Index{% endblock %}
-{% block body %}
-  {{ super() }}
-  <h1>Versions Index</h1>
-  {% for version in versions %}    
-      <a href="./{{ version }}/index.html">{{ version }}</a> -> <a href="./{{ version }}/appendix/snapshot.html">snapshot.yaml</a></br>
-  {% endfor %}
-{% endblock %}

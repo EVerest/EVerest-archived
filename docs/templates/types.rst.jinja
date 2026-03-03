@@ -1,8 +1,0 @@
-{%  import 'macros.jinja' as funcs %}
-{{ funcs.explicit_target('everest_types_' + name) }}
-{{ funcs.h1(name) }}
-{{ data.description}}
-{%  if 'documentation' in types %}
-{{ funcs.documentation(data.documentation) -}}
-{% endif %}
-{{ funcs.types(data.types.items(), name) }}

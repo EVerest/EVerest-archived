@@ -1,6 +1,0 @@
-everest-core:
-  git: git@github.com:EVerest/everest-core.git
-  git_tag: main
-everest:
-  git: git@github.com:EVerest/EVerest.git
-  git_tag: main
